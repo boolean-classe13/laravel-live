@@ -14,3 +14,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'MovieController@index');
+Route::get('/attori', 'ActorController@index');
